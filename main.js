@@ -25,7 +25,7 @@ const numeros100 = numeros.map(adicionar100)
 
 
 console.log("numeros:",numeros)
-console.log("numeros mais 100:",numeros100)
+console.log("numeros maiores 100:",numeros100)
 
 //Problema - Criar um novo array com os números menores que 100
 
@@ -43,25 +43,25 @@ const menores100 = numeros.filter(diminuir100)
  console.log("Numeros menores que 100:",menores100)
 
 //Solução com for
- let menoresQueCem = []
- let cont = 0
- for(let i = 0; i < numeros.length; i++){
-    if(numeros[i] < 100){ 
-        menoresQueCem[cont] = numeros[i]  
-        cont++  
-    }
+//  let menoresQueCem = []
+//  let cont = 0
+//  for(let i = 0; i < numeros.length; i++){
+//     if(numeros[i] < 100){ 
+//         menoresQueCem[cont] = numeros[i]  
+//         cont++  
+//     }
        
- }
- console.log("menores que cem:",menoresQueCem)
+//  }
+//  console.log("menores que cem:",menoresQueCem)
 
  //Problema somar todos os valores(elementos)
  
  //usando for
- let numerosSomados = 0
- for(let i = 0; i < numeros.length; i++){
-    numerosSomados += numeros[i];
-}
-console.log("numeros somados:", numerosSomados)
+//  let numerosSomados = 0
+//  for(let i = 0; i < numeros.length; i++){
+//     numerosSomados += numeros[i];
+// }
+// console.log("numeros somados:", numerosSomados)
 
 //usando reduce 
 //Ele também possui quatro parametros
